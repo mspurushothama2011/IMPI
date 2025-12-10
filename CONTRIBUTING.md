@@ -1,67 +1,164 @@
 # Contributing to IMPI
 
-First off, thanks for taking the time to contribute! 🎉
+Thank you for your interest in contributing to the Intelligent Meeting Insights Platform (IMPI)! We appreciate your time and effort.
 
-## How to Contribute
+## Table of Contents
+- [Code of Conduct](#code-of-conduct)
+- [Getting Started](#getting-started)
+- [Development Workflow](#development-workflow)
+- [Code Style Guide](#code-style-guide)
+- [Submitting Changes](#submitting-changes)
+- [Reporting Issues](#reporting-issues)
+- [Feature Requests](#feature-requests)
+- [Code Review Process](#code-review-process)
+- [Community](#community)
 
-1. **Fork** the repository on GitHub
-2. **Clone** your forked repository
+## Code of Conduct
+
+This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Node.js 16+
+- MongoDB 4.4+
+- Git
+
+### Setting Up the Development Environment
+
+1. **Fork and Clone**
    ```bash
    git clone https://github.com/your-username/IMPI.git
    cd IMPI
    ```
-3. **Create a new branch** for your feature or bugfix
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-4. **Make your changes**
-5. **Test your changes**
-6. **Commit** your changes
-   ```bash
-   git commit -m "Add some amazing feature"
-   ```
-7. **Push** to the branch
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-8. Open a **Pull Request**
 
-## Development Setup
-
-### Backend
-1. Create a virtual environment
+2. **Set Up Backend**
    ```bash
+   # Create and activate virtual environment
    python -m venv venv
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
-   ```
-2. Install dependencies
-   ```bash
+   # On Windows:
+   .\venv\Scripts\activate
+   # On macOS/Linux:
+   # source venv/bin/activate
+   
+   # Install dependencies
    pip install -r requirements.txt
    ```
 
-### Frontend
-1. Navigate to the frontend directory
+3. **Set Up Frontend**
    ```bash
    cd frontend
-   ```
-2. Install dependencies
-   ```bash
    npm install
    ```
-3. Start the development server
+
+## Development Workflow
+
+1. **Create a Branch**
    ```bash
-   npm run dev
+   git checkout -b feature/your-feature-name
+   # or for bug fixes:
+   # git checkout -b bugfix/issue-number-description
    ```
 
-## Code Style
-- Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) for Python code
-- Use [Prettier](https://prettier.io/) for frontend code formatting
-- Write meaningful commit messages
+2. **Make Your Changes**
+   - Follow the code style guidelines
+   - Write tests for new features
+   - Update documentation as needed
+
+3. **Run Tests**
+   ```bash
+   # Backend tests
+   pytest
+   
+   # Frontend tests
+   cd frontend
+   npm test
+   ```
+
+4. **Commit Your Changes**
+   ```bash
+   git add .
+   git commit -m "type(scope): concise description of changes"
+   ```
+   
+   Commit message format:
+   ```
+   type(scope): subject
+   
+   [optional body]
+   
+   [optional footer]
+   ```
+   
+   Types:
+   - feat: New feature
+   - fix: Bug fix
+   - docs: Documentation changes
+   - style: Code style changes
+   - refactor: Code changes that neither fix bugs nor add features
+   - test: Adding missing tests or correcting existing tests
+   - chore: Changes to the build process or auxiliary tools
+
+5. **Push Your Changes**
+   ```bash
+   git push origin your-branch-name
+   ```
+
+6. **Open a Pull Request**
+   - Fill in the PR template
+   - Reference any related issues
+   - Request reviews from maintainers
+
+## Code Style Guide
+
+### Python
+- Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+- Use type hints for all new code
+- Document public APIs with docstrings (Google style)
+- Keep functions small and focused
+
+### JavaScript/React
+- Follow [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- Use functional components with hooks
+- Prop-types for all components
+- Keep components small and reusable
 
 ## Reporting Issues
-When reporting issues, please include:
-- Steps to reproduce the issue
-- Expected behavior
-- Actual behavior
+
+Before submitting an issue, please:
+1. Check if the issue has already been reported
+2. Try to reproduce the issue with the latest version
+
+When reporting an issue, include:
+- A clear title and description
+- Steps to reproduce
+- Expected vs actual behavior
 - Screenshots if applicable
-- Your environment (OS, browser, etc.)
+- Environment details (OS, browser, versions, etc.)
+
+## Feature Requests
+
+We welcome feature requests! Please:
+1. Check if the feature has already been requested
+2. Explain why this feature would be valuable
+3. Include any relevant use cases
+
+## Code Review Process
+
+1. Automated checks (tests, linting) must pass
+2. At least one maintainer must approve the PR
+3. All comments must be addressed before merging
+4. Squash and merge with a clear commit message
+
+## Community
+
+- Join our [Discord/Slack channel]()
+- Follow us on [Twitter]()
+- Read our [blog]()
+
+## Need Help?
+
+If you need help or have questions, please open an issue or reach out to us at [your-email@example.com](mailto:your-email@example.com).
+
+Thank you for contributing to IMPI! 🚀
