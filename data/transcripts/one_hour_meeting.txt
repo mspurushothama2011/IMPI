@@ -1,0 +1,446 @@
+﻿Meeting start: 2025-09-15 23:20
+Agenda: Q4 roadmap and deliverables, API v2 migration and deprecations, Kubernetes production readiness, Mobile app UX improvements
+
+--- Minute 1 ---
+Sarah (Infrastructure): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): Action item captured.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 2 ---
+Raj (Data): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Raj (Data): Can you hear me okay?
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 3 ---
+Raj (Data): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Raj (Data): Action item captured.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+Action: Sarah will Complete production readiness checklist for new cluster by Wednesday.
+
+--- Minute 4 ---
+John (Engineering): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+John (Engineering): Action item captured.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will freeze feature development on legacy endpoints by Oct 1.
+
+--- Minute 5 ---
+John (Engineering): On Q4 roadmap and deliverables, here are the key points we've observed over the last sprint.
+John (Engineering): We can circle back to that in a moment.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 6 ---
+John (Engineering): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+John (Engineering): I think we lost someone; let's give them a minute.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 7 ---
+Alice (PM): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+Alice (PM): Can you hear me okay?
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 8 ---
+Raj (Data): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Raj (Data): Let me share my screen.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+Action: Mike will Deliver GTM deck with competitive positioning by Tuesday.
+
+--- Minute 9 ---
+John (Engineering): On Q4 roadmap and deliverables, here are the key points we've observed over the last sprint.
+John (Engineering): I think we lost someone; let's give them a minute.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 10 ---
+Mike (Marketing): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Mike (Marketing): I'll drop a link in the chat.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 11 ---
+John (Engineering): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+John (Engineering): I think we lost someone; let's give them a minute.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will target Lighthouse performance score >= 85 on mobile.
+
+--- Minute 12 ---
+John (Engineering): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+John (Engineering): We can circle back to that in a moment.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 13 ---
+Lisa (Design): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+Lisa (Design): Action item captured.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+Action: Mike will Deliver GTM deck with competitive positioning by Tuesday.
+
+--- Minute 14 ---
+Mike (Marketing): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Mike (Marketing): I think we lost someone; let's give them a minute.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 15 ---
+Raj (Data): On Q4 roadmap and deliverables, here are the key points we've observed over the last sprint.
+Raj (Data): I think we lost someone; let's give them a minute.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 16 ---
+Lisa (Design): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Lisa (Design): Action item captured.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 17 ---
+Sarah (Infrastructure): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): I'll drop a link in the chat.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 18 ---
+Lisa (Design): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Lisa (Design): Action item captured.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will freeze feature development on legacy endpoints by Oct 1.
+Action: Lisa will Finalize mobile UI mockups and handoff by Thursday.
+
+--- Minute 19 ---
+Raj (Data): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Raj (Data): I'll drop a link in the chat.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 20 ---
+Lisa (Design): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Lisa (Design): I think we lost someone; let's give them a minute.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 21 ---
+John (Engineering): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+John (Engineering): We can circle back to that in a moment.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 22 ---
+Sarah (Infrastructure): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): I think we lost someone; let's give them a minute.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 23 ---
+Mike (Marketing): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Mike (Marketing): We can circle back to that in a moment.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+Action: Mike will Deliver GTM deck with competitive positioning by Tuesday.
+
+--- Minute 24 ---
+Mike (Marketing): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Mike (Marketing): We can circle back to that in a moment.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 25 ---
+Mike (Marketing): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Mike (Marketing): Can you hear me okay?
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will schedule weekly syncs every Monday at 10 AM.
+
+--- Minute 26 ---
+John (Engineering): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+John (Engineering): Action item captured.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 27 ---
+Sarah (Infrastructure): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): Let me share my screen.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 28 ---
+Mike (Marketing): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Mike (Marketing): Action item captured.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+Action: Lisa will Finalize mobile UI mockups and handoff by Thursday.
+
+--- Minute 29 ---
+Mike (Marketing): On Q4 roadmap and deliverables, here are the key points we've observed over the last sprint.
+Mike (Marketing): Action item captured.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 30 ---
+Mike (Marketing): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Mike (Marketing): Let me share my screen.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 31 ---
+John (Engineering): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+John (Engineering): I'll drop a link in the chat.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 32 ---
+Raj (Data): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Raj (Data): I'll drop a link in the chat.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will target Lighthouse performance score >= 85 on mobile.
+
+--- Minute 33 ---
+John (Engineering): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+John (Engineering): I'll drop a link in the chat.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+Action: Mike will Deliver GTM deck with competitive positioning by Tuesday.
+
+--- Minute 34 ---
+Sarah (Infrastructure): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): Action item captured.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 35 ---
+Raj (Data): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Raj (Data): We can circle back to that in a moment.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 36 ---
+Raj (Data): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Raj (Data): Can you hear me okay?
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 37 ---
+Raj (Data): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Raj (Data): Can you hear me okay?
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 38 ---
+Raj (Data): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+Raj (Data): Can you hear me okay?
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+Action: Raj will Run customer feedback analysis and share findings by next Monday.
+
+--- Minute 39 ---
+Alice (PM): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Alice (PM): Action item captured.
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will schedule weekly syncs every Monday at 10 AM.
+
+--- Minute 40 ---
+Alice (PM): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Alice (PM): We can circle back to that in a moment.
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 41 ---
+Raj (Data): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Raj (Data): I think we lost someone; let's give them a minute.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 42 ---
+John (Engineering): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+John (Engineering): Can you hear me okay?
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 43 ---
+John (Engineering): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+John (Engineering): Action item captured.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+Action: Raj will Run customer feedback analysis and share findings by next Monday.
+
+--- Minute 44 ---
+Alice (PM): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Alice (PM): Can you hear me okay?
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 45 ---
+Alice (PM): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+Alice (PM): Action item captured.
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 46 ---
+Lisa (Design): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Lisa (Design): We can circle back to that in a moment.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will proceed with the API v2 rollout starting next Monday.
+
+--- Minute 47 ---
+Mike (Marketing): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Mike (Marketing): I think we lost someone; let's give them a minute.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 48 ---
+Raj (Data): On Q4 roadmap and deliverables, here are the key points we've observed over the last sprint.
+Raj (Data): We can circle back to that in a moment.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+Action: John will Implement pagination and rate limiting in API v2 by next Friday.
+
+--- Minute 49 ---
+John (Engineering): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+John (Engineering): Let me share my screen.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 50 ---
+Mike (Marketing): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+Mike (Marketing): I think we lost someone; let's give them a minute.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 51 ---
+Lisa (Design): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Lisa (Design): Action item captured.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 52 ---
+Alice (PM): On Mobile app UX improvements, here are the key points we've observed over the last sprint.
+Alice (PM): We can circle back to that in a moment.
+Alice (PM): Performance has improved, but we need more headroom for peak traffic.
+Alice (PM): If we align dependencies, we can reduce risk during the release week.
+Alice (PM): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 53 ---
+Sarah (Infrastructure): On Budget allocations and forecasting, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): Let me share my screen.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will proceed with the API v2 rollout starting next Monday.
+Action: Mike will Deliver GTM deck with competitive positioning by Tuesday.
+
+--- Minute 54 ---
+Sarah (Infrastructure): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Sarah (Infrastructure): I'll drop a link in the chat.
+Sarah (Infrastructure): Performance has improved, but we need more headroom for peak traffic.
+Sarah (Infrastructure): If we align dependencies, we can reduce risk during the release week.
+Sarah (Infrastructure): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 55 ---
+Lisa (Design): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Lisa (Design): We can circle back to that in a moment.
+Lisa (Design): Performance has improved, but we need more headroom for peak traffic.
+Lisa (Design): If we align dependencies, we can reduce risk during the release week.
+Lisa (Design): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 56 ---
+Mike (Marketing): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Mike (Marketing): Action item captured.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 57 ---
+John (Engineering): On Kubernetes production readiness, here are the key points we've observed over the last sprint.
+John (Engineering): Let me share my screen.
+John (Engineering): Performance has improved, but we need more headroom for peak traffic.
+John (Engineering): If we align dependencies, we can reduce risk during the release week.
+John (Engineering): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 58 ---
+Mike (Marketing): On GTM deck and pricing positioning, here are the key points we've observed over the last sprint.
+Mike (Marketing): Action item captured.
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+Action: Sarah will Complete production readiness checklist for new cluster by Wednesday.
+
+--- Minute 59 ---
+Raj (Data): On API v2 migration and deprecations, here are the key points we've observed over the last sprint.
+Raj (Data): I think we lost someone; let's give them a minute.
+Raj (Data): Performance has improved, but we need more headroom for peak traffic.
+Raj (Data): If we align dependencies, we can reduce risk during the release week.
+Raj (Data): I'll coordinate with stakeholders to confirm timelines.
+
+--- Minute 60 ---
+Mike (Marketing): On Customer feedback analysis and NPS, here are the key points we've observed over the last sprint.
+Mike (Marketing): Can you hear me okay?
+Mike (Marketing): Performance has improved, but we need more headroom for peak traffic.
+Mike (Marketing): If we align dependencies, we can reduce risk during the release week.
+Mike (Marketing): I'll coordinate with stakeholders to confirm timelines.
+Decision: We will target Lighthouse performance score >= 85 on mobile.
+
+Meeting end.
+

@@ -1,0 +1,102 @@
+================================================================================
+  IMIP - Quick Start Reference Card
+================================================================================
+
+📂 CURRENT WORKING DIRECTORY
+   c:\21phcs11\sem3 project\IMP_3
+
+🚀 START APPLICATION (One Click!)
+   
+   Option 1 (Recommended):
+   Double-click: start-app.ps1
+   
+   Option 2 (Alternative):
+   Double-click: start-app.bat
+   
+   What happens:
+   Backend API starts on port 8000
+   Frontend starts on port 5173
+   Browser opens automatically
+   Working directory set correctly
+
+🛑 STOP APPLICATION
+   
+   ➜ Double-click: stop-app.ps1
+   OR
+   ➜ Double-click: stop-app.bat
+   OR
+   ➜ Close the terminal windows
+
+🔍 TEST PATHS (Before first run)
+   
+   ➜ Double-click: test-paths.ps1
+   
+   This will verify:
+   ✓ All directories exist
+   ✓ Required files present
+   ✓ Python/Node/NPM installed
+
+📋 FIRST TIME SETUP
+   
+   1. Install dependencies:
+      cd "c:\21phcs11\sem3 project\IMP_3"
+      pip install -r requirements.txt
+      cd frontend
+      npm install
+      cd ..
+   
+   2. Start MongoDB (keep running):
+      mongod --dbpath ./data/db
+   
+   3. Run the app:
+      .\start-app.ps1
+
+🌐 SERVICE URLS (After startup)
+   
+   Frontend:    http://localhost:5173  (opens automatically)
+   Backend:     http://127.0.0.1:8000  (use 127.0.0.1 to avoid IPv6 issues)
+   API Docs:    http://127.0.0.1:8000/docs
+   MongoDB:     mongodb://localhost:27017
+
+⚡ QUICK COMMANDS
+
+   Start:       .\start-app.ps1
+   Stop:        .\stop-app.ps1
+   Test Paths:  .\test-paths.ps1
+   
+   Check Status:
+   netstat -an | findstr "8000 5173 27017"
+
+🔧 TROUBLESHOOTING
+
+   PowerShell Script Won't Run?
+   ➜ Run PowerShell as Administrator:
+      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   
+   MongoDB Not Running?
+   ➜ Start it:
+      mongod --dbpath ./data/db
+   
+   Port Already in Use?
+   ➜ Stop services:
+      .\stop-app.ps1
+   
+   Network Error during Registration?
+   ➜ Frontend has been configured to use 127.0.0.1
+   ➜ See: frontend/.env.local
+
+📚 DOCUMENTATION
+
+   Setup Guide:       RUNNING_THE_PROJECT.md
+   Cleanup Report:    CLEANUP_REPORT.md
+   Quick Reference:   This file (QUICK_START.txt)
+
+================================================================================
+💡 TIP: Keep MongoDB running in the background as a Windows service for 
+   convenience. Just start/stop the app with the scripts!
+   
+   Note: Backend uses 127.0.0.1 instead of 0.0.0.0 to avoid IPv6/IPv4
+   resolution issues on Windows.
+================================================================================
+
+Last Updated: October 21, 2025
