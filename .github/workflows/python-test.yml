@@ -14,11 +14,16 @@ jobs:
         image: mongo:5.0
         ports:
           - 27017:27017
+        env:
+          MONGO_INITDB_ROOT_USERNAME: test
+          MONGO_INITDB_ROOT_PASSWORD: test123
         options: >-
           --health-cmd "mongosh --eval 'db.serverStatus().ok'"
           --health-interval 10s
           --health-timeout 5s
-          --health-retries 5
+          --health-retries 10
+    env:
+      MONGODB_URI: mongodb://test:test123@localhost:27017/test_db?authSource=admin
 
     strategy:
       matrix:
@@ -54,10 +59,12 @@ jobs:
       working-directory: ./frontend
       run: npm ci
 
+    # Wait for MongoDB to be ready
+    - name: Wait for MongoDB
+      run: sleep 15
+
     # Run Python tests
     - name: Run Python tests
-      env:
-        MONGODB_URI: mongodb://localhost:27017/test_db
       run: |
         python -m pytest --cov=app --cov-report=xml
 

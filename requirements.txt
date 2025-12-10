@@ -30,3 +30,12 @@ PyJWT
 
 # Rate limiting
 slowapi
+
+# Testing dependencies
+pytest-asyncio
+pytest-cov
+pytest-mock
+httpx
+pytest-httpx
+pytest-xdist
+pytest-env
