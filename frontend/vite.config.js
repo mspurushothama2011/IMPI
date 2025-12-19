@@ -7,7 +7,11 @@ export default defineConfig(({ mode }) => {
   // Load env file based on `mode` in the current directory.
   const env = loadEnv(mode, process.cwd(), '');
   
-  const isProduction = process.env.NODE_ENV === 'production';
+  // Check both mode and NODE_ENV for production detection
+  const isProduction = mode === 'production' || process.env.NODE_ENV === 'production';
+  
+  // Log environment for debugging
+  console.log(`Running in ${isProduction ? 'production' : 'development'} mode`);
   
   return {
     plugins: [
